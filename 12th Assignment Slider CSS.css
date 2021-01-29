@@ -1,0 +1,60 @@
+.Images{
+    margin: auto;
+    width: fit-content;
+    width: 50%;
+    height: fit-content
+    position: relative;
+}
+.numbers{
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    padding: 0 0 0 12px;
+    width: 20px;
+    height: 30px;
+    margin-right: 5px;
+    background-color: purple;
+    color: white;
+    border-radius: 100%;
+    display: inline-flex;
+}
+.numbers:hover{
+    background-color: yellow;
+    color: black;
+}
+.back{
+    float: left;
+    color: purple;
+    cursor: pointer;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 17.7%;
+}
+.back:hover{
+    background-color: yellow;
+}
+.next{
+    float: center;
+    color: purple;
+    cursor: pointer;
+    position: absolute;
+    font-size: 50px;
+    top: 50%;
+    right: 18%;
+}
+.next:hover{
+    background-color: yellow;
+}
+img{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade{
+    from{
+        opacity: 0.4;
+    }
+    to{
+        opacity: 1;
+    }
+}

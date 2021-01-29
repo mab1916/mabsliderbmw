@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="./12th Assignment Slider CSS.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.1-web/css/all.css">
+</head>
+<body>
+    <div style="text-align: center;">
+        <span class="numbers" onclick="ImgNum(1)">
+            1
+        </span>
+        <span class="numbers" onclick="ImgNum(2)">
+            2
+        </span>
+        <span class="numbers" onclick="ImgNum(3)">
+            3
+        </span>
+        <span class="numbers" onclick="ImgNum(4)">
+            4
+        </span>
+        <span class="numbers" onclick="ImgNum(5)">
+            5
+        </span>
+    </div>
+    <!-- <br> -->
+    <div class="Images">
+        <img src="./12th Assignment Slider Images/1.jpg" alt="1st" width="100%">
+        <img src="./12th Assignment Slider Images/2.jpg" alt="2nd" width="100%">
+        <img src="./12th Assignment Slider Images/3.jpg" alt="3rd" width="100%">
+        <img src="./12th Assignment Slider Images/4.jpg" alt="4th" width="100%">
+        <img src="./12th Assignment Slider Images/5.jpg" alt="5th" width="100%">
+    </div>
+    <span class="back" onclick="Slide(-1)">
+        <i class="fas fa-chevron-left"></i>
+    </span>
+    <span class="next" onclick="Slide(1)">
+        <i class="fas fa-chevron-right"></i>
+    </span>
+<script src="./12th Assignment Slider JS.js"></script>
+</body>
+</html>
